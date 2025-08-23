@@ -17,8 +17,15 @@ $clientes = getClientes($pdo);
 </head>
 <body>
     <h1>Lista de Clientes</h1>
-    <a href="novo_cliente.php">+ Novo Cliente</a>
-    <table border="1" cellpadding="8">
+<nav>
+    <a href="../public/index.php">Dashboard</a>
+    <a href="produtos.php">Produtos</a>
+    <a href="../views/clientes.php">Clientes</a>
+    <a href="../views/vendas.php">Vendas</a>
+    <a href="../controllers/logout.php">Sair</a>
+</nav>
+    
+    <table>
         <tr>
             <th>ID</th><th>Nome</th><th>Email</th><th>Telefone</th><th>Ações</th>
         </tr>
@@ -39,6 +46,8 @@ $clientes = getClientes($pdo);
         </tr>
         <?php endforeach; ?>
     </table>
-    <a href="../public/index.php">Voltar</a>
+    <br>
+    <a href="novo_cliente.php" class="btn">Novo Cliente</a>
+    
 </body>
 </html>
