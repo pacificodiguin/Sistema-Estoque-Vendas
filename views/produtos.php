@@ -6,7 +6,7 @@ if(!isset($_SESSION['usuario'])){
     exit();
 }
 
-// Buscar todos os produtos
+// Busca de todos os produtos
 $sql = $pdo->query("SELECT * FROM produtos");
 $produtos = $sql->fetchAll(PDO::FETCH_ASSOC);
 ?>
@@ -23,6 +23,7 @@ $produtos = $sql->fetchAll(PDO::FETCH_ASSOC);
 <h1>Produtos</h1>
 <nav>
     <a href="../public/index.php">Dashboard</a>
+    <a href="produtos.php">Produtos</a>
     <a href="../views/clientes.php">Clientes</a>
     <a href="../views/vendas.php">Vendas</a>
     <a href="../controllers/logout.php">Sair</a>
