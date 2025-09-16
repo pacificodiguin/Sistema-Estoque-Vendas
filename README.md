@@ -36,10 +36,10 @@ Aqui estão as funcionalidades já implementadas e as que estão planejadas para
 
 | Categoria      | Tecnologia(s)                                   |
 | -------------- | ----------------------------------------------- |
-| **Backend** | **(Ex: PHP 8, Laravel, Node.js, Express.js)** |
-| **Frontend** | **(Ex: HTML5, CSS3, JavaScript, Bootstrap)** |
-| **Banco de Dados** | **(Ex: MySQL, PostgreSQL)** |
-| **Servidor** | **(Ex: Apache, Nginx)** |
+| **Backend** | **(PHP , Laravel, Node.js)** |
+| **Frontend** | **(HTML5, CSS3, JavaScript, Bootstrap)** |
+| **Banco de Dados** | **(MySQL)** |
+| **Servidor** | **(Apache)** |
 
 ---
 
